@@ -14,30 +14,34 @@ This is a simple informational site made with Node.js and HTML. It was implement
 ## Features
 
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Use of the switch statement to route user to indicated page
+* Use of different features available from the Node API including creating a local server and reading from HTML files.
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Add styling
 
 ## Getting Started
    
-(include git clone command)
-(include all environment setup steps)
+Ensure that you have a Text editor installed (Visual Studio Code, Sublime text editor).
 
-> Be sure to include BOTH Windows and Unix command  
-> Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
+Ensure that you have Node js installed on your machine (https://nodejs.org/en/download/).
 
-- All the `code` required to get started
-- Images of what it should look like
+If you are using Windows, ensure that you have git bash installed on your machine.
+
+In the terminal/command prompt, navigate to the directory that you wish to clone the repository in, and insert the following command:
+
+> git clone https://github.com/Robo-91/InformationalSite.git
 
 ## Usage
 
-> Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+After cloning the repository, use the following command to initialize the server created by Node:
+
+> node index.js
+
+In your web browser, navigate to your localhost address:
+
+> localhost:8080
 
 ## License
 
 This project uses the following license: [GNU](https://www.gnu.org/licenses/gpl-3.0.en.html).
-
